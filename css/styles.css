@@ -313,6 +313,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    line-height: 16px;
     max-width: 225px;
     cursor: pointer;
 }
@@ -459,6 +460,7 @@ footer p{
 @media(min-width:350px){
     .contenedorCards {
         grid-auto-columns: 54%;
+        width: 80%;
     }
 }
 
@@ -505,35 +507,6 @@ footer p{
         font-size:2rem
     }
 
-    /* .imagenPersona{
-        width: 100%;
-        gap: 2.5rem;
-    }
-
-    .imagenPersona img {
-        width: 50%;
-        margin-bottom: 10px;
-    }    */
-
-    /* .persona{
-        margin-top:-10%;
-    } */
-
-    .contenedorCards{
-        display: flex;
-        max-width: 70%;
-        justify-content: space-between;
-        align-items: center;
-        gap: 2rem;
-        overflow-x: none;
-    }
-
-    .card{
-        width:300px;
-        max-width: 400px;
-        height: 220px;
-    }
-
     #misServicios{
         margin-top:0
     }
@@ -574,4 +547,38 @@ footer p{
     .copy span {
         display: inline;
     }
+}
+
+
+
+@media(min-width:678px) {
+    .contenedorCards {
+            gap: 2rem;
+            width: 80%;
+        }
+    
+        .card {
+            width: 300px;
+            max-width: 400px;
+            height: 220px;
+        }
+}
+
+@media(min-width:768px) {
+    .contenedorCards {
+        width: 80%;
+        gap: 1rem;
+
+    }
+}
+
+@media(min-width:992px) {
+        .contenedorCards {
+                display: flex;
+                max-width: 85%;
+                justify-content: space-between;
+                align-items: center;
+                gap: 2rem;
+                overflow-x: none;
+            }
 }
