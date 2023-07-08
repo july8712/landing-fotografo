@@ -235,10 +235,10 @@ nav ul li a {
 }
 
 .redes img{
-    width: 18px;
-    height: 18px;
+    width: 28px;
+    height: 28px;
     border-radius: 8px;
-    filter: brightness(0) saturate(100%) invert(46%) sepia(65%) saturate(405%) hue-rotate(342deg) brightness(91%) contrast(102%);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(13%) saturate(7408%) hue-rotate(291deg) brightness(119%) contrast(107%);
 }
 
 .info h1,
@@ -459,7 +459,7 @@ footer p{
 
 @media(min-width:350px){
     .contenedorCards {
-        grid-auto-columns: 54%;
+        grid-auto-columns: 75%;
         width: 80%;
     }
 }
@@ -518,6 +518,7 @@ footer p{
 
     .redes img{
         width:40px;
+        filter: brightness(0) saturate(100%) invert(46%) sepia(65%) saturate(405%) hue-rotate(342deg) brightness(91%) contrast(102%);
     }
 
     #galeria div {
